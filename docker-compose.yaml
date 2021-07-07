@@ -1,0 +1,44 @@
+version: "3"
+
+services: 
+    app:
+        build: .
+        container_name: app
+        volumes: 
+          - .:/go/src/
+        ports: 
+          - 8585:8585
+    webserver:
+        container_name: webserver
+        build: nginx/
+        ports:
+          - 80:80
+        volumes:
+          - ./nginx/:/usr/share/nginx/html/
+    # db:
+    #     container_name: db
+    #     image: postgres
+    #     restart: always
+    #     environment:
+    #         POSTGRES_USER: admin
+    #         POSTGRES_PASSWORD: 12345
+    #     volumes:
+    #       - ./db:/var/lib/postgresql/data
+    # pgadmin:
+    #     container_name: pgadmin
+    #     image: dpage/pgadmin4
+    #     restart: always
+    #     ports:
+    #       - 15432:80
+    #     environment:
+    #         PGADMIN_DEFAULT_EMAIL: admin
+    #         PGADMIN_DEFAULT_PASSWORD: 12345
+    sqlite:
+        container_name: sqlite
+        image: coleifer/sqlite-web
+        ports: 
+          - 8888:8080
+        volumes: 
+          - ./dbsqlite:/data
+        environment: 
+            SQLITE_DATABASE: beer.db
