@@ -4,9 +4,9 @@
 
 <h2>⚡️ Endpoints ⚡️</h2>
 <ul>
-  <li><strong> ✅ POST http://localhost:8585/beer </strong></li>
-  <li><strong> 👀 GET http://localhost:8585/beer </strong></li>
-  <li><strong> 👀 GET http://localhost:8585/beer/1 </strong></li>
-  <li><strong> 🔄 PUT http://localhost:8585/beer/1 </strong></li>
-  <li><strong> ❌ DELETE http://localhost:8585/beer/1 </strong></li>
+  <li><strong> ✅ POST.......| http://localhost:8585/beer </strong></li>
+  <li><strong> 👀 GET..........| http://localhost:8585/beer </strong></li>
+  <li><strong> 👀 GET..........| http://localhost:8585/beer/1 </strong></li>
+  <li><strong> 🔄 PUT..........| http://localhost:8585/beer/1 </strong></li>
+  <li><strong> ❌ DELETE...| http://localhost:8585/beer/1 </strong></li>
 </ul>
