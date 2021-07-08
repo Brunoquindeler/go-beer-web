@@ -39,6 +39,7 @@ services:
         ports: 
           - 8888:8080
         volumes: 
-          - ./dbsqlite:/data
+          - ./data:/data
         environment: 
             SQLITE_DATABASE: beer.db
+            SQLITE_DATABASE_TEST: beer_test.db
