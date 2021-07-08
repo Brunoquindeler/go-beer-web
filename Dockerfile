@@ -4,6 +4,6 @@ WORKDIR /go/src
 ENV PATH="/go/bin:${PATH}"
 ENV CGO_ENABLED=0
 
-#RUN go install github.com/spf13/cobra/cobra@latest
+RUN go get github.com/mattn/go-sqlite3
 
 CMD ["tail", "-f", "/dev/null"]
