@@ -5,7 +5,9 @@
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Brunoquindeler/go-beer-web)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Brunoquindeler/go-beer-web)
-  
+![GitHub repo size](https://img.shields.io/github/repo-size/Brunoquindeler/go-beer-web)
+![Lines of code](https://img.shields.io/tokei/lines/github/Brunoquindeler/go-beer-web)
+
 ### API Rest feita em GO na [**playlist**](https://www.youtube.com/playlist?list=PL0qudqr7_CuStQUsf2vtHXMxOp5gl_ENc) do canal do [**Elton Minetto**](https://www.youtube.com/channel/UCZSl6chVJgpbhxjYbijnd0Q)
   
 -------------------
