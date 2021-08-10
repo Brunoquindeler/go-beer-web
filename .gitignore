@@ -25,5 +25,7 @@
 .history/
 
 db/
+bin/
 
 teste.go
+info
